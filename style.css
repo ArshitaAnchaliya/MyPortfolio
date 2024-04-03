@@ -255,6 +255,15 @@ justify-content: center;
     margin: 2rem auto;
 }
 
+@media only screen and (max-width: 1000px) {
+ .projectssection{
+    display: flex;
+     flex-direction:column;
+    justify-content: center;
+     margin: 2rem auto;
+}
+}
+
 .project{
     border: 1px solid white;
     flex: 1;
