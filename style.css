@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(121,9,233);
+    background-color: rgb(127, 77, 165);
     color: white;
 }
 
@@ -109,13 +109,10 @@ section {
 }
 
 .section_textcontent_p1 {
-    text-align: center;
-}
-
-.section_textcontent_p1 {
     font-size: 16px;
     min-height: 24px;
-    color: whitesmoke;
+    color:rgb(201, 163, 235);
+     text-align: center;
 }
 
 .section_textcontent_titleh1 {
