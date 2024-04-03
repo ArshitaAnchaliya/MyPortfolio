@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(127, 77, 165);
+    background:linear-gradient(220deg, rgb(75,15,109 / 88%), #8e44ad);
     color: white;
 }
 
@@ -67,7 +67,7 @@ a,
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 80vh;
+    height: 50vh;
     min-width: 500px;
 
 }
