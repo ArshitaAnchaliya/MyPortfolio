@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:rgb(127,77,165)
+    background:linear-gradient(276deg, rgb(209 83 234), rgb(55 22 110));
     color: white;
 }
 
@@ -55,7 +55,7 @@ a,
 }
 
  a:hover {
-    color: rgb(195, 149, 237);
+    color: rgb(55,22,110);
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -67,7 +67,6 @@ a,
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 50vh;
     min-width: 500px;
 
 }
@@ -80,15 +79,13 @@ section {
 }
 
 .section_profilepic {
-    display: flex;
-    border: 6px solid rgb(255, 252, 255);
     border-radius: 200px;
     margin: auto 0;
 }
 
 .section_profilepic img {
     height: 400px;
-    width: 400px;
+    width: 300px;
     object-fit: cover;
     border-radius: 200px;
 }
