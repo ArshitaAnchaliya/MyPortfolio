@@ -190,7 +190,7 @@ section {
 
 
 .read-more,.read-less {
-    color: #8455c2;
+    color: rgb(201, 163, 235);
     cursor: pointer;
     text-decoration: underline;
 }
