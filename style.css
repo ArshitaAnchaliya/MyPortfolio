@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -51,7 +52,7 @@ a,
  a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
  a:hover {
@@ -75,20 +76,19 @@ a,
 }
 
 section {
-    padding-top: 5vh;
-    /*margin: 0 10rem;*/
+    padding:20px;
+    margin: 0 auto;
     box-sizing: border-box;
     min-height: fit-content;
 }
 
 .section_profilepic {
-    border-radius: 200px;
     margin-bottom: 20px;
 }
 
 .section_profilepic img {
     height: 360px;
-    width: 330px;
+    width:330px;
     object-fit: cover;
     border-radius:50%;
 }
@@ -187,9 +187,6 @@ section {
     width: 32px;
 }
 
-.sectioncontainer{
-    padding: 0 63px;
-}
 
 .aboutdetails {
     line-height: 30px;
@@ -292,41 +289,38 @@ column-gap: 40px;
 
 
 #contact{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    text-align: center;
+  
 }
 
 .contactinfoconatiner{
     display: flex;
-    justify-content: center;
-    border-radius: 2rem;
-    margin: 2rem auto;
+    justify-content:center;
+    column-gap: 30px;
+    margin: 0 auto;
     padding: 0.5rem;
-    border: 2px solid whitesmoke;
 }
 
-.contactinfo{
+
+.contactinfo {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1rem; 
+    column-gap: 11px;
 }
 
-
 .email-icon {
-    height: 2.5rem;
+    height: 40px;
+    width: 40px;
     cursor: default;
 }
 
 
 /*all media queries*/
 
-@media screen and (max-width:900px){
+@media screen and (max-width:500px){
     .section_profilepic img {
         height: 297px;
-        width: 260px;
+        width:60%;
         object-fit: cover;
         border-radius: 50%;
     }
@@ -336,6 +330,7 @@ column-gap: 40px;
 @media screen and (max-width:754px){
     #profile {
        display: block;
+       text-align: center;
     }
   
 }
@@ -346,3 +341,23 @@ column-gap: 40px;
     text-align: center;
 }
 }
+
+@media screen and (max-width:754px){
+    .navitems {
+        display: none;
+    }
+    }
+    
+    @media screen and (max-width:550px){
+    .contactinfoconatiner{
+        display: block;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width:550px){
+.contactinfo {
+        margin: 5px auto;
+}
+}
+
