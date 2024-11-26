@@ -69,11 +69,7 @@ a,
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    min-width: 500px;
-    min-height:450px;
     text-align: center;
-    
-
 }
 
 section {
@@ -83,18 +79,18 @@ section {
     min-height: fit-content;
 }
 
-.section_profilepic {
-    margin-bottom: 20px;
-}
 
-.section_profilepic img {
-    height: 360px;
-    width:330px;
+.section_profilepic {
+    height: 330px;
+    width:300px;
+    }
+
+.section_profilepic img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius:50%;
 }
-
-
 
 .section_textcontent {
     align-self: center;
@@ -102,10 +98,6 @@ section {
     height: fit-content;
 }
 
-
-.section_textcontent p {
-    font-weight: 600;
-}
 
 .section_textcontent_p1 {
     font-size: 20px;
@@ -291,6 +283,7 @@ column-gap: 40px;
 
 #contact{
     text-align: center;
+    margin-bottom: 45px;
   
 }
 
@@ -299,7 +292,6 @@ column-gap: 40px;
     justify-content:center;
     column-gap: 30px;
     margin: 0 auto;
-    padding: 0.5rem;
 }
 
 
@@ -307,7 +299,17 @@ column-gap: 40px;
     display: flex;
     align-items: center;
     column-gap: 11px;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    padding:10px 20px;
 }
+
+.contactinfo span a:hover {
+    color: rgb(173, 122, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 .email-icon {
     height: 40px;
@@ -318,14 +320,26 @@ column-gap: 40px;
 
 /*all media queries*/
 
+@media screen and (max-width:754px){
+    .section_profilepic{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width:500px){
-    .section_profilepic img {
-        height: 297px;
-        width:60%;
-        object-fit: cover;
-        border-radius: 50%;
+    .section_profilepic {
+        height: 280px;
+        width:245px;
     }
   
+}
+
+@media screen and (max-width:245px){
+.section_profilepic {
+    height: 146px;
+        width:68%;
+}
 }
 
 @media screen and (max-width:754px){
@@ -351,14 +365,17 @@ column-gap: 40px;
     
     @media screen and (max-width:550px){
     .contactinfoconatiner{
-        display: block;
-        margin: 0px 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width:550px){
-.contactinfo {
-        margin: 5px auto;
-}
-}
 
+
+@media screen and (max-width: 400px) {
+    .navlinks {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+}
