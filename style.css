@@ -42,6 +42,7 @@ a,
 
 .navlinks {
     display: flex;
+    justify-content:center;
     gap: 3rem;
     list-style: none;
 }
