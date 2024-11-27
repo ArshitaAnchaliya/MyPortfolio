@@ -303,8 +303,8 @@ column-gap: 40px;
 }
 
 .content_logo {
-    height: 75px;
-    width: 75px;
+    height: 65px;
+    width: 66px;
 }
 
 
@@ -410,6 +410,6 @@ column-gap: 40px;
 @media screen and (max-width: 400px) {
     .content_logo {
         height: 50px;
-        width: 50px;
+        width: 49px;
     }
 }
