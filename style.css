@@ -293,6 +293,7 @@ column-gap: 40px;
     display: flex;
     justify-content: center;
     column-gap: 90px;
+    row-gap:30px;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
@@ -399,7 +400,7 @@ column-gap: 40px;
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .navlinks {
         flex-direction: column;
         gap: 1.5rem;
