@@ -281,6 +281,32 @@ column-gap: 40px;
  font-size: 16px;
 }
 
+.skillscontainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 55px;
+}
+
+.skillslogo-content {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.content_logo {
+    height: 75px;
+    width: 75px;
+}
+
 
 #contact{
     text-align: center;
@@ -378,5 +404,12 @@ column-gap: 40px;
         flex-direction: column;
         gap: 1.5rem;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content_logo {
+        height: 50px;
+        width: 50px;
     }
 }
