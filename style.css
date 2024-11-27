@@ -413,3 +413,9 @@ column-gap: 40px;
         width: 49px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .contactinfo span a {
+    font-size:14px;
+    }
+}
