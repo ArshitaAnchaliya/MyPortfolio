@@ -232,10 +232,6 @@ h3 {
     padding-top: 25px;
 }
 
-#experience {
-    position: relative;
-   
-}
 
 .experiencedetails{
 display: flex;
@@ -244,42 +240,65 @@ flex-wrap: wrap;
 column-gap: 40px;
     }
 
+ .projectsinfo{
+        display: flex;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 50px;
+        flex-wrap:wrap ;
+    }
+    
+    
+    .projectimage{
+        width: 414px;
+        height: 436px;
+        border: 2px solid whitesmoke;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .projectimage img {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    
+    
+    .projecttext{
+        display: none;
+        position: absolute;
+        background-color: white;
+        color: black;            
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 16px;           
+        padding:20px 37px;                   
+        box-sizing: border-box;          
+        z-index: 10;  
+    }
 
-#project{
-    position: relative;
-}
+    .projecttext h3{
+        margin-bottom: 10px;
+    }
+    
+
+    .projecttext .prbtn{
+        color: white;
+        background-color: black;
+        margin: 20px auto;
+        text-align: center;
+        padding: 12px 20px;
+        border-radius: 20px;
+    }
+    .projectimage:hover .projecttext{
+        display: block;
+    }
 
 
-.projectssection{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 2rem auto;
-}
 
-
-.project{
-    border: 1px solid white;
-    flex: 1;
-    text-align: center;
-    padding: 24px;
-    border-radius: 2rem;
-}
-
-.project h2{
-    margin: 15px;
-}
-
-.projectimg{
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
-}
-
-.projectbtn {
- font-size: 16px;
-}
 
 .skillscontainer {
     display: flex;
@@ -419,4 +438,10 @@ column-gap: 40px;
     .contactinfo span a {
     font-size:14px;
     }
+}
+
+@media screen and (max-width: 430px) {
+.projectimage{
+    width: 300px;
+    height: 490px;}
 }
