@@ -321,6 +321,22 @@ column-gap: 40px;
     margin: 0 auto;
     padding: 30px;
 }
+.educationcontainer{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.educationinfo{
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.educationinfo h3{
+    margin-bottom: 10px;
+}
 
 .content_logo {
     height: 65px;
