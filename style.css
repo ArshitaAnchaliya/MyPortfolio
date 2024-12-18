@@ -467,3 +467,14 @@ column-gap: 40px;
     .projecttext ul{
         font-size: 13px;}
     }
+
+@media (min-width: 600px) and (max-width: 980px) {
+  .experiencedetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 40px; 
+  }
+}
