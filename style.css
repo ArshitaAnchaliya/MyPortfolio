@@ -474,7 +474,12 @@ column-gap: 40px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
     column-gap: 40px; 
+  }
+}
+
+@media (min-width: 600px) and (max-width: 980px) {
+  .internship {
+   padding:30px;
   }
 }
